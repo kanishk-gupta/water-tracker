@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Water Tracker",
+    "slug": "waterTracker",
+    "version": "1.0.0",
+    "newArchEnabled": true,
+    "jsEngine": "hermes",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#8CD2EA"
+    },
+    "android": {
+      "package": "com.smartz.waterTracker",
+      "versionCode": 1
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#8CD2EA",
+          "image": "./assets/images/splash.png",
+          "resizeMode": "contain"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "de5ce8c1-82c9-43c0-8c5a-581120cdc56d"
+      }
+    }
+  }
+}
